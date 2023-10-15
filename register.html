@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-gray-100 min-h-screen flex items-center justify-center">
+        <div class="bg-white p-8 rounded shadow-lg max-w-md w-full">
+            <h2 class="text-2xl font-semibold mb-4">Register</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-600 text-sm mb-2">Name</label>
+                    <input type="text" id="name" name="name" class="border rounded w-full py-2 px-3 focus:outline-none focus:border-blue-500" placeholder="John Doe" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-600 text-sm mb-2">Email</label>
+                    <input type="email" id="email" name="email" class="border rounded w-full py-2 px-3 focus:outline-none focus:border-blue-500" placeholder="example@example.com" required>
+                </div>
+                <div class="mb-4">
+                    <label for="phone" class="block text-gray-600 text-sm mb-2">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="border rounded w-full py-2 px-3 focus:outline-none focus:border-blue-500" placeholder="123-456-7890" required>
+                </div>
+                <div class="mb-4">
+                    <label for="village" class="block text-gray-600 text-sm mb-2">Village</label>
+                    <input type="text" id="village" name="village" class="border rounded w-full py-2 px-3 focus:outline-none focus:border-blue-500" placeholder="Your Village" required>
+                </div>
+                <div class="mb-4">
+                    <label for="username" class="block text-gray-600 text-sm mb-2">Username</label>
+                    <input type="text" id="username" name="username" class="border rounded w-full py-2 px-3 focus:outline-none focus:border-blue-500" placeholder="johndoe123" required>
+                </div>
+                <div class="mb-6">
+                    <label for="password" class="block text-gray-600 text-sm mb-2">Password</label>
+                    <input type="password" id="password" name="password" class="border rounded w-full py-2 px-3 focus:outline-none focus:border-blue-500" placeholder="********" required>
+                </div>
+                <div class="mb-6">
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full w-full">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
